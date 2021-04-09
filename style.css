@@ -1,0 +1,194 @@
+
+#mainNav {
+    background-color: #E8E8E8;
+    font-weight: 300;
+  }
+  
+#mainNav a
+{
+   color : #000000;
+   text-transform: uppercase;
+}
+
+#mainNav li
+{
+  display: inline-block;
+  margin-left: 60px;
+}
+
+#mainNav .nav-link:active
+{
+   color :#0B4DA2;
+}
+
+.navbar-nav > .active > a {
+  color :rgb(0, 132, 255);
+  border-bottom: 0.1rem solid #0B4DA2;    
+}
+
+#mainNav .nav-link:hover
+{
+  color :#0B4DA2;
+  border-bottom: 0.1rem solid #0B4DA2;
+}
+  
+#mainNav .navbar-toggler {
+  font-size: 80%;
+  padding: 0.75rem;
+  color: #0B4DA2;
+  border: 1px solid #0B4DA2;
+}
+
+  
+  
+  .masthead {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 80%, #161616 100%), url("img/Stefano-Guidi_h1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  
+.masthead h1
+{
+   margin : 0;
+   padding: 0;
+   font-size: 110px;
+   font-family: 'Segoe UI';
+   color: whitesmoke;
+   border: 0;
+   border-bottom: 0.1rem solid whitesmoke; 
+}
+
+.masthead p
+{
+  margin: 0;
+  padding: 0;
+  font-size: 35px;
+  color:whitesmoke;
+}
+
+.masthead a
+{
+  background-color : #ED1C24;
+  height: auto;
+  width:20%;
+}
+
+#actualite .container
+{
+  margin-top: 4%;
+}
+
+#actualite h1
+{
+  margin : 0;
+  padding: 0;
+  font-size: 35px;
+  border: 0;
+  border-bottom: 0.1rem solid black; 
+}
+
+#actualite a
+{
+  background-color : #1B56A3;
+  height: auto;
+  width:20%;
+}
+.card 
+{
+  width: 20rem;
+  height: auto;
+}
+.card-title
+{
+  font-size: 18px;
+}
+
+.card a
+{
+  margin-left: 80%;
+}
+
+/*.inner
+{
+  overflow:hidden;
+}*/
+
+.inner img
+{
+  transition : all 1.5s ease;
+}
+
+.inner:hover img
+{
+  transform: scale(1.5);
+}
+
+#vaccin .container
+{
+  margin-top: 4%;
+}
+
+#vaccin h1
+{
+  margin : 0;
+  padding: 0;
+  margin-bottom: 5%;
+  font-size: 35px;
+  border: 0;
+  border-bottom: 0.1rem solid #0B4DA2; 
+}
+
+#vaccin h2
+{
+  margin : 0;
+  padding: 0;
+  margin-bottom: 2%;
+  font-size: 25px;
+  border: 5;
+  border-bottom: 0.1rem solid #ED1C24; 
+}
+
+#vaccin p
+{
+  font-size: 18px;
+}
+
+#avance
+{
+  margin-bottom: 8%;
+}
+
+#avance .container
+{
+  margin-top: 4%;
+}
+
+#avance h1
+{
+  margin : 0;
+  padding: 0;
+  margin-bottom: 5%;
+  font-size: 35px;
+  border: 0;
+  border-bottom: 0.1rem solid #0B4DA2; 
+}
+
+#avance h3
+{
+  margin : 0;
+  padding: 0;
+  margin-bottom: 2%;
+  font-size: 25px;
+}
+
+#avance img 
+{
+  box-shadow: 8px 8px 12px #aaa;
+}
