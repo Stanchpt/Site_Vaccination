@@ -63,19 +63,19 @@
               <br>
               <div class="row">
                   <label>Nom</label>
-                  <input type="text" class="form-control" placeholder="Nom">
+                  <input type="text" class="form-control" placeholder="Nom" id="nom" required>
                   <br><br>
                   <label>Prenom</label>
-                  <input type="text" class="form-control" placeholder="Prenom">
+                  <input type="text" class="form-control" placeholder="Prenom" id="prenom" required>
                   <br><br>
                   <label>Email</label>
-                  <input type="email" class="form-control" placeholder="Email" required>
+                  <input type="email" class="form-control" placeholder="Email" id="email" required>
                   <br><br>
                   <label>Numéro de sécurité sociale</label>
-                  <input type="number" class="form-control" placeholder="Numéro de sécurité sociale" required>
+                  <input type="number" class="form-control" placeholder="Numéro de sécurité sociale" id="num-secu" required>
                   <br><br><br>
                   <div class="ml-lg-auto">
-                  <input type="button" class="btn btn-primary" value="Valider" onclick="Message();" required>
+                  <input type="button" class="btn btn-primary" value="Valider" >
                   </div>
               </div>
         </div>
@@ -92,13 +92,5 @@
         </div>
         <!-- Copyright -->
     </footer>
-
-
-    <script type="text/javascript">
-        function Message()
-        {
-            alert("Vos données sont bien enregistrées");
-        }
-    </script>
 </body>
 </html>
