@@ -38,10 +38,10 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-lg-auto">
-              <li class="nav-item ">
+              <li class="nav-item active">
                  <a class="nav-link" href="index.php">Accueil</a>
               </li>
-              <li class="nav-item active">
+              <li class="nav-item">
                  <a class="nav-link" href="actualite.html">Actualités</a>
               </li>
               <li class="nav-item">
@@ -58,28 +58,20 @@
       </nav>
     <!---->
 
-    <section id="visu" class="mt-5">
+    <!-- Header -->
+    <header class="masthead">
         <div class="container">
-              <h1>L’OMS demande des études et des données supplémentaires sur l’origine du virus SARS-CoV-2 et rappelle que toutes les hypothèses restent ouvertes</h1>
+          <div class="row">
+            <div class="col-md-12">
+              <h1>Bienvenue sur le site du Gouvernement</h1>
               <br>
-              <p>Le rapport établi par l’équipe internationale sur sa mission de terrain à Wuhan, menée du 14 janvier au 10 février 2021, a été publié aujourd’hui. Le Directeur général de l’OMS, le Dr Tedros Adhanom Ghebreyesus, a appelé à la conduite d’études supplémentaires.
-
-                Le rapport découle d’une résolution adoptée par les États Membres à l’unanimité lors de l’Assemblée mondiale de la Santé qui s’est tenue en mai 2020. Dans cette résolution, l’OMS était priée « d’identifier la source zoonotique du virus et de déterminer par quelle voie il s’[était] introduit dans la population humaine, y compris en examinant le rôle potentiel d’hôtes intermédiaires, notamment moyennant des missions scientifiques et des missions de collaboration sur le terrain ».
-                
-                Dans les remarques qu’il a adressées aux États Membres aujourd’hui, le Dr Tedros Adhanom Ghebreyesus, qui a reçu le rapport complet ce week-end, a remercié l’équipe pour son travail inlassable. Il a affirmé que cela faisait considérablement progresser notre compréhension, tout en soulevant des questions qui devront être traitées dans le cadre d’études supplémentaires, comme l’indique le rapport lui-même. « Du point de vue de l’OMS, toutes les hypothèses restent sur la table. Ce rapport marque un début très important, mais le chemin ne s’arrête pas là. Nous n’avons pas encore trouvé la source du virus et nous devons continuer de suivre les éléments scientifiques et d’explorer toutes les pistes possibles », a-t-il ajouté. « Trouver l’origine d’un virus est un travail de longue haleine et nous devons au monde d’en établir la source afin de pouvoir prendre collectivement des mesures pour réduire le risque que cela ne se reproduise. Une seule mission d’enquête ne peut suffire à apporter toutes les réponses. »</p>
-              <i>Pour l'exemple, l'article est copié du site de l'OMS</i>
-    </section>  
-
-    <footer class="bg-dark text-center text-white fixed-bottom">
-  
-        <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: #313131;">
-              <!-- Section: Social media -->
-          Fait par Stan CHAPIT
-          <br>
-          ©2019 Tous droits réservés
+              <p>Soyons unis contre la Covid-19</p>
+              <br>
+              <a href="actualite.html" class="btn btn-danger">Les actualités <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </div>
         </div>
-        <!-- Copyright -->
-      </footer>
+    </header>
+    <!---->
 </body>
 </html>
