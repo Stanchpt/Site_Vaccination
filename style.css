@@ -130,6 +130,12 @@
   transform: scale(1.5);
 }
 
+
+#visu .container
+{
+  margin-top: 8%;
+}
+
 #vaccin .container
 {
   margin-top: 4%;

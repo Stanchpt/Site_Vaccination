@@ -40,7 +40,7 @@
               <li class="nav-item ">
                  <a class="nav-link" href="index.html">Accueil</a>
               </li>
-              <li class="nav-item active">
+              <li class="nav-item">
                  <a class="nav-link" href="actualite.html">Actualités</a>
               </li>
               <li class="nav-item">
@@ -49,8 +49,8 @@
              <li class="nav-item">
               <a class="nav-link" href="avance.html">Les avancées</a>
            </li>
-           <li class="nav-item">
-            <a class="nav-link" href="#">Je suis solidaire contre la COVID </a>
+           <li class="nav-item active">
+            <a class="nav-link" href="solidaire.html">Je suis solidaire contre la COVID </a>
          </li>
            </ul>
           </div>
@@ -59,49 +59,24 @@
 
     <section id="actualite" class="mt-5">
         <div class="container">
-              <h1>Actualités</h1>
+              <h1>Je suis solidaire contre la COVID</h1>
               <br>
               <div class="row">
-                <div class="col-md-4">
-                    <div class="card shadow">
-                        <div class="inner">
-                            <img class="card-img-top" src="img/img_actu1.PNG" alt="actu-1">
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text"> Date du 30 mars 2021 </p>
-                          <h5 class="card-title">L’OMS demande des études et des données supplémentaires sur l’origine du virus SARS-CoV-2 et rappelle que toutes les hypothèses restent ouvertes</h5>
-                          <a href="visu_actu1.html" class="btn btn-primary">Voir</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card shadow">
-                        <div class='inner'>
-                            <img class="card-img-top" src="img/img_actu2.PNG" alt="actu-2">
-                        </div>
-                        <div class="card-body">
-                        <p class="card-text"> Date du 25 mars 2021 </p>
-                          <h5 class="card-title">Dernières nouvelles de la part du Mécanisme COVAX
-                            à l’intention des participants concernant les retards de livraison 
-                            de vaccins par le Serum Institute of India (SII) et AstraZeneca</h5>
-                          <a href="visu_actu2.html" class="btn btn-primary">Voir</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card shadow" >
-                        <div class='inner'>
-                            <img class="card-img-top" src="img/img_actu3.PNG" alt="actu-3">
-                        </div>
-                        <div class="card-body">
-                        <p class="card-text"> Date du 25 mars 2021 </p>
-                          <h5 class="card-title">Déclaration commune sur l'ordre de priorité à établir 
-                            pour vacciner contre la COVID-19 les gens de mer et 
-                            les équipages d'aéronefs</h5>
-                         <a href="visu_actu3.html" class="btn btn-primary">Voir</a>
-                        </div>
-                    </div>
-                </div>
+                  <label>Nom</label>
+                  <input type="text" class="form-control" placeholder="Nom">
+                  <br><br>
+                  <label>Prenom</label>
+                  <input type="text" class="form-control" placeholder="Prenom">
+                  <br><br>
+                  <label>Email</label>
+                  <input type="email" class="form-control" placeholder="Email" required>
+                  <br><br>
+                  <label>Numéro de sécurité sociale</label>
+                  <input type="number" class="form-control" placeholder="Numéro de sécurité sociale" required>
+                  <br><br><br>
+                  <div class="ml-lg-auto">
+                  <input type="button" class="btn btn-primary" value="Valider" onclick="Message();" required>
+                  </div>
               </div>
         </div>
     </section>  
@@ -116,6 +91,14 @@
           ©2019 Tous droits réservés
         </div>
         <!-- Copyright -->
-      </footer>
+    </footer>
+
+
+    <script type="text/javascript">
+        function Message()
+        {
+            alert("Vos données sont bien enregistrées");
+        }
+    </script>
 </body>
 </html>
